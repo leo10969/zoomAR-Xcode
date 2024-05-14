@@ -14,6 +14,7 @@
 		C323D4CD2BF323B200F45E74 /* m1_zoom_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323D4CC2BF323B200F45E74 /* m1_zoom_appTests.swift */; };
 		C323D4D72BF323B200F45E74 /* m1_zoom_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323D4D62BF323B200F45E74 /* m1_zoom_appUITests.swift */; };
 		C323D4D92BF323B200F45E74 /* m1_zoom_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323D4D82BF323B200F45E74 /* m1_zoom_appUITestsLaunchTests.swift */; };
+		C3AB4FA72BF34B6200476667 /* ZoomHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB4FA62BF34B6200476667 /* ZoomHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C323D4D22BF323B200F45E74 /* m1-zoom-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "m1-zoom-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C323D4D62BF323B200F45E74 /* m1_zoom_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = m1_zoom_appUITests.swift; sourceTree = "<group>"; };
 		C323D4D82BF323B200F45E74 /* m1_zoom_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = m1_zoom_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3AB4FA62BF34B6200476667 /* ZoomHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C323D4BA2BF323B100F45E74 /* m1-zoom-app */ = {
 			isa = PBXGroup;
 			children = (
+				C3AB4FA62BF34B6200476667 /* ZoomHandler.swift */,
 				C323D4BB2BF323B100F45E74 /* AppDelegate.swift */,
 				C323D4BD2BF323B100F45E74 /* ContentView.swift */,
 				C323D4BF2BF323B200F45E74 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				C323D4BE2BF323B100F45E74 /* ContentView.swift in Sources */,
 				C323D4BC2BF323B100F45E74 /* AppDelegate.swift in Sources */,
+				C3AB4FA72BF34B6200476667 /* ZoomHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +436,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +468,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
